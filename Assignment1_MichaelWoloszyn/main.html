@@ -6,6 +6,47 @@
     <title></title>
 </head>
 <body>
-
+    <form action="quotationPage.html">
+        <h2>Vaccine Booking</h2>
+        <p>
+            <label for="n" class="group_label">Name</label>
+            <input id="n" type="text" required />
+        </p>
+        <p>
+            <label for="e" class="group_label">Email</label>
+            <input id="e" type="text" required />
+        </p>
+        <p>
+            <label for="r" class="group_label">Room Selection</label>
+            <select id="r" required>
+                <option value="Living Room">Living Room</option>
+                <option value="Family Room">Family Room</option>
+                <option value="bedroom">Bedroom</option>
+            </select>
+        </p>
+        <p>
+            <label for="w" class="group_label">Room Width</label>
+            <input id="w" type="text" required />
+        </p>
+        <p>
+            <label for="l" class="group_label">Room Length</label>
+            <input id="l" type="number" required />
+        </p>
+        <p>
+            <label for="c" class="group_label">Colour</label>
+            <input id="c" type="color" required />
+        </p>
+        <p>
+            <label for="p" class="group_label">Paint Selection</label>
+            <select id="p" required>
+                <option value="standard">Standard Paint (24.99 per can)</option>
+                <option value="premium">Premium Paint (39.99 per can)</option>
+            </select>
+        </p>
+        <p>
+            <input type="reset" value="Clear" />
+            <input type="submit" value="Send" onclick="setForm()" />
+        </p>
+    </form>
 </body>
 </html>
