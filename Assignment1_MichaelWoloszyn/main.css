@@ -1,2 +1,22 @@
 body {
+    background-image: url('painting_man.jpg');
+    background-size: 1000px;
+    color: deepskyblue;
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 25px;
+    color: red;
+    font-style: italic;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
 }

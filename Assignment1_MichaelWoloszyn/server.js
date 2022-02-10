@@ -22,11 +22,11 @@ function fillTable() {
         if (i == 3)
             result = totalArea;
         if (i == 4)
-            result = localStorage.getItem('Length');
-        if (i == 5)
             result = localStorage.getItem('Colour');
+        if (i == 5)
+            result = Math.round(totalArea / 400);
         if (i == 6)
-            result = localStorage.getItem('Paint');
+            result = totalArea * 2;
 
         var row = $('<tr>').text(JSON.stringify(result));
         table.append(row);
