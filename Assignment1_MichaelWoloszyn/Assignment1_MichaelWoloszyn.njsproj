@@ -28,7 +28,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="main.html">
+    <Content Include="quotationPage.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="server.js" />
